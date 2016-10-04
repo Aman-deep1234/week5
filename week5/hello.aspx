@@ -11,8 +11,8 @@
     </div>
         
         <asp:textbox id="txtName" runat="server"
-             placeholder="Enter your name"/>
-
+             placeholder="Enter your name" required/>
+    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Required" ControlToValidate="txtname" cssclass="alert-danger"></asp:RequiredFieldValidator>
         <asp:button id="btnSubmit" runat="server"
             text="submit" cssclass="btn btn-success" OnClick="btnSubmit_Click" />
 

@@ -7,14 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace week5
 {
-    try{
-            /*  */
-            /*  */
-            /*  */
-   
-  }
-
-public partial class tip : System.Web.UI.Page
+    public partial class error : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
